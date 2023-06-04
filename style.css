@@ -49,6 +49,16 @@ legend{
 
 }
 
+input:focus{
+    
+    color: #d2ebeb;
+}
+
+input:invalid, textarea:invalid{
+    border-bottom:2px solid red;
+    background-color: #0e1010;
+}
+
 .btn{
     background-color: #252a1f;
     color: white;
